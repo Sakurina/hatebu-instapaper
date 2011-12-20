@@ -1,0 +1,9 @@
+Package: net.r-ch.hatebu-instapaper
+Name: HatenaInstapaper
+Version: 1.0
+Architecture: iphoneos-arm
+Description: adds a Send to Instapaper button to Hatena Bookmark's app
+Maintainer: Yanik Magnan <kirbykirbykirby@gmail.com>
+Author: Yanik Magnan <kirbykirbykirby@gmail.com>
+Section: Tweaks
+Pre-Depends: mobilesubstrate

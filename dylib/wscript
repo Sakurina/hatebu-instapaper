@@ -1,0 +1,12 @@
+def configure(conf):
+  conf.env.DYLIB_LDFLAGS = conf.env.SUBSTRATE_LDFLAGS + ' -framework UIKit -framework CoreGraphics'
+  pass
+
+def build(bld):
+  print(' → building HatebuInstapaper.dylib')  
+  bld.use_the_magic()
+  bld(source='HatebuInstapaper.mm')
+  bld(source='HatebuInstapaper.o',
+      target='HatebuInstapaper.dylib',
+      rule='${CPP_COMPILER} ${DYLIB_LDFLAGS} -o ${TGT} ${SRC}')
+  bld.install_files('${PREFIX}/Library/MobileSubstrate/DynamicLibraries', 'HatebuInstapaper.dylib')
