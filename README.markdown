@@ -1,6 +1,6 @@
 # hatebu-instapaper
 
-Adds an [Instapaper][1] button to [Hatena::Bookmark][2]' iPhone app.
+Adds an [Instapaper][1] button to [Hatena::Bookmark][2]'s iPhone app.
 
 Saves you the step of having to open it in Safari and using the bookmarklet. Requires the [Instapaper app][3] to be installed.
 
